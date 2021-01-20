@@ -1,0 +1,24 @@
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
+  <h3 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
+      <i class="fa fa-calendar"></i> {{ page.date | date: date_format }}
+    </time>
+
+    {% assign article = page.content %}
+    {%- include functions.html func='get_reading_time' -%}
+    {% assign reading_time = return %}
+  </p>
+
+  {%- if page.tags.size > 0 -%}
+  <div class="post-tags">
+    {%- for tag in page.tags -%}
+    <p class="post-tag">#{{tag}}</p>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+</header>
