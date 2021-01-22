@@ -89,7 +89,7 @@ html[data-scroll-status='down'] .framework .sidebar { top: 20px; }
 .site-brand { line-height: 63.84px; margin-right: 50px; }
 .site-brand .site-brand-inner { font-size: 15.75px; font-weight: 400; letter-spacing: -1px; transition: 0.1s filter color; }
 .site-brand .site-brand-inner, .site-brand .site-brand-inner:visited { color: black; }
-.site-brand .site-brand-inner .site-favicon { display: inline-block; height: 42.56px; margin-right: 5px; }
+.site-brand .site-brand-inner .site-favicon { display: inline-block; height: 63.84px; margin-right: 5px; }
 
 .site-nav { font-size: 15.75px; line-height: 63.84px; position: absolute; right: 0; top: 0; }
 .site-nav .nav-trigger { display: none; }

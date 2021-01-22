@@ -27,10 +27,11 @@
 title: 이프커뮤니티 기술 블로그
 email: sky@ifcommunity.co.kr
 author: GitHub User
-copyright: © IFcommunity. All rights reserved
+copyright: © IFcommunity. All rights reserved, Powered by GitHub Pages.
 description: >- # this means to ignore newlines until "baseurl:"
   이프커뮤니티 기술 블로그
 
+logoimg: /assets/images/logo/iflogo.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ifcommunity-dev.github.io"
 favicon: "" # the favicon for your site
